@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: liver_db
+    restart: always
+    environment:
+      POSTGRES_USER: lmao_admin
+      POSTGRES_PASSWORD: lmao_pass
+      POSTGRES_DB: liver_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

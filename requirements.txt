@@ -1,0 +1,24 @@
+# --- Core AI & Training ---
+torch
+torchvision
+torchaudio
+monai[all]          # The medical vision framework
+numpy
+matplotlib
+tqdm                # Progress bars
+natsort             # Sorting file names like a human (1, 2, 10 not 1, 10, 2)
+nibabel             # Handling NIfTI medical images
+
+# --- The API (Nervous System) ---
+fastapi             # The backend framework
+uvicorn[standard]   # The server that runs the API
+python-multipart    # Required to upload files (images) to the API
+requests            # For the Frontend to talk to the API
+
+# --- The Database (Memory) ---
+sqlmodel            # The Python-SQL translator
+psycopg2-binary     # The driver that talks to PostgreSQL
+
+# --- The Web UI (Face) ---
+streamlit           # The dashboard framework
+watchdog            # Makes Streamlit reload faster when code changes
