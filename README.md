@@ -95,7 +95,6 @@ pip install -r requirements.txt
 ### 2. Database (Docker)
 
 Ensure Docker Desktop is running, then spin up the PostgreSQL container:
-Bash
 ```bash
 docker-compose up -d
 ```
