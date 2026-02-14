@@ -6,7 +6,7 @@
 [![MONAI](https://img.shields.io/badge/MONAI-Medical_AI-purple.svg)](https://monai.io/)
 [![Docker](https://img.shields.io/badge/Docker-Containerized-blue.svg)](https://www.docker.com/)
 
-> **A full-stack, hardware-agnostic medical AI system capable of segmenting Liver and Tumor volumes from 3D CT scans on consumer-grade hardware (8GB RAM).**
+> **A full-stack, hardware-agnostic medical AI system capable of segmenting Liver and Tumor volumes from 3D CT scans on consumer-grade hardware (8GB RAM). The model was trained on 50GB+ of data.**
 
 ![Project Demo](assets/showcase.gif)
 
